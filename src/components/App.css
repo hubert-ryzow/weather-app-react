@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+
+body{
+  background-color: #ffffff;
+}
+
+.formularz{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.formularz input {
+  padding-left: 10px;
+  font-size: 16px;
+  border-width: 1px;
+  border-color: #CCCCCC;
+  background-color: #fafafa;
+  color: #000000;
+  border-style: solid;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px rgba(66,66,66,.75);
+}
+.formularz input:focus {
+  outline:none;
+}
+
+.formularz button {
+  margin-left: 15px;
+  background-color:#5986d4;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+
+.formularz button:hover {
+	background-color:#4343a8;
+}
+
+.formularz button:active {
+	position:relative;
+	top:1px;
+}
+
+.result{
+  display: flex;
+  justify-content: center;
+}
+
+.wyniki{
+  text-align: center;
+  border: 1px solid #CCCCCC;
+  min-width: 414px;
+  border-radius: 10%;
+  box-shadow: 0px 0px 5px rgba(66,66,66,.75);
+  background-color: #fafafa;
+}
+
+em{
+  font-weight: bold;
+  font-style: normal;
+}
+
+h3{
+  font-weight: 500;
+}
+
+span{
+  font-weight: 500;
+  font-style: italic;
+}
